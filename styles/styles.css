@@ -1,0 +1,43 @@
+
+#calculatorContainer {
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.output {
+  height: 100px;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  padding: 10% 0;
+}
+
+
+.input {
+  height: 300px;
+  width: 250px;
+
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 60px 60px 60px 60px 60px;
+}
+
+button {
+  cursor: pointer;
+  padding: initial;
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
+  border-radius: 25px;
+}
