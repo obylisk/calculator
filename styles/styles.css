@@ -3,9 +3,13 @@
   margin: auto;
   height: 400px;
   width: 250px;
-  border: 1px solid black;
+  border: 5px solid black;
   border-radius: 25px;
+  background-color: black;
+  box-shadow: 10px 10px 2px slategrey;
 }
+
+
 
 .output {
   height: 100px;
@@ -13,11 +17,28 @@
   text-align: center;
   font-weight: bold;
   font-size: xx-large;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+}
+
+p {
+  color: white;
+  border-bottom: 1px white solid;
+  font-size: large;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+
 }
 
 h1 {
   padding: 10% 0;
+  color: white;
+  font-size: medium;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+
+  max-width: 240px;
 }
 
 
@@ -27,10 +48,10 @@ h1 {
 
 }
 
-.buttons {
+.row {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 60px 60px 60px 60px 60px;
+  grid-template-rows: 60px;
 }
 
 button {
@@ -40,4 +61,26 @@ button {
   font-size: small;
   text-align: center;
   border-radius: 25px;
+  background: white;
+}
+.operator {
+  background: black;
+  color: white;
+  }
+
+#button-equal {
+  background: black;
+  color: white;
+}
+
+#button-clear {
+  width: 200%;
+  background: deepskyblue;
+}
+
+#button-backspace{
+  width: 200%;
+  margin: 0 0 0 100%;
+  background: orangered;
+  font-size: xx-large;
 }
