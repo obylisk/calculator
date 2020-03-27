@@ -63,6 +63,10 @@ button {
   border-radius: 25px;
   background: white;
 }
+
+.input :hover{
+}
+
 .operator {
   background: black;
   color: white;
@@ -73,12 +77,16 @@ button {
   color: white;
 }
 
+[id^="button-"]:hover {
+  background: darkgrey !important;
+}
+
 #button-clear {
   width: 200%;
   background: deepskyblue;
 }
 
-#button-backspace{
+#button-backspace {
   width: 200%;
   margin: 0 0 0 100%;
   background: orangered;
